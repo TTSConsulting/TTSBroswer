@@ -1,2 +1,3 @@
-2025/06/19-09:41:39.207 bacc Creating DB C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\TTTSBroswer v1 Pre-Alpha.exe.WebView2\EBWebView\Default\shared_proto_db\metadata since it was missing.
-2025/06/19-09:41:39.222 bacc Reusing MANIFEST C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\TTTSBroswer v1 Pre-Alpha.exe.WebView2\EBWebView\Default\shared_proto_db\metadata/MANIFEST-000001
+2025/06/19-10:22:29.140 4fd4 Reusing MANIFEST C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\TTTSBroswer v1 Pre-Alpha.exe.WebView2\EBWebView\Default\shared_proto_db\metadata/MANIFEST-000001
+2025/06/19-10:22:29.141 4fd4 Recovering log #3
+2025/06/19-10:22:29.142 4fd4 Reusing old log C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\TTTSBroswer v1 Pre-Alpha.exe.WebView2\EBWebView\Default\shared_proto_db\metadata/000003.log 

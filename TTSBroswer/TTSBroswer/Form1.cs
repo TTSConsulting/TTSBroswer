@@ -16,5 +16,15 @@ namespace TTSBroswer
             webView21.Size = new Size(this.Width, this.Height - 35);
             webView21.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
         }
+
+        private void Form1_Load_1(object sender, EventArgs e)
+        {
+            homeButtion.Click += (sender, e) =>
+            {
+                webView21.Source = new Uri("https://www.google.com/search?q=");
+            };
+
+        }
+
     }
 }

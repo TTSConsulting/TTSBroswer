@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             webView21 = new Microsoft.Web.WebView2.WinForms.WebView2();
+            homeButtion = new Button();
             ((System.ComponentModel.ISupportInitialize)webView21).BeginInit();
             SuspendLayout();
             // 
@@ -37,20 +38,32 @@
             webView21.AllowExternalDrop = true;
             webView21.CreationProperties = null;
             webView21.DefaultBackgroundColor = Color.White;
-            webView21.Location = new Point(3, 49);
+            webView21.Location = new Point(-1, 40);
             webView21.Name = "webView21";
-            webView21.Size = new Size(794, 401);
+            webView21.Size = new Size(1345, 526);
             webView21.TabIndex = 0;
             webView21.ZoomFactor = 1D;
+            // 
+            // homeButtion
+            // 
+            homeButtion.AccessibleName = "homeButtion";
+            homeButtion.Location = new Point(-1, 5);
+            homeButtion.Name = "homeButtion";
+            homeButtion.Size = new Size(64, 29);
+            homeButtion.TabIndex = 1;
+            homeButtion.Text = "Home";
+            homeButtion.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1345, 565);
+            Controls.Add(homeButtion);
             Controls.Add(webView21);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load_1;
             ((System.ComponentModel.ISupportInitialize)webView21).EndInit();
             ResumeLayout(false);
         }
@@ -58,6 +71,6 @@
         #endregion
 
         private Microsoft.Web.WebView2.WinForms.WebView2 webView21;
-
+        private Button homeButtion;
     }
 }
