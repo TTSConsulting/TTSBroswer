@@ -26,12 +26,12 @@ C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\De
 C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.xml
 C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\obj\Debug\net8.0-windows\TTSBroswer.csproj.Up2Date
 C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\obj\Debug\net8.0-windows\TTSBroswer.genruntimeconfig.cache
-C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\TTTSBroswer v1 Pre-Alpha.exe
-C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\TTTSBroswer v1 Pre-Alpha.deps.json
-C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\TTTSBroswer v1 Pre-Alpha.runtimeconfig.json
-C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\TTTSBroswer v1 Pre-Alpha.dll
-C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\TTTSBroswer v1 Pre-Alpha.pdb
-C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\obj\Debug\net8.0-windows\TTTSBroswer v1 Pre-Alpha.dll
-C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\obj\Debug\net8.0-windows\refint\TTTSBroswer v1 Pre-Alpha.dll
-C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\obj\Debug\net8.0-windows\TTTSBroswer v1 Pre-Alpha.pdb
-C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\obj\Debug\net8.0-windows\ref\TTTSBroswer v1 Pre-Alpha.dll
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\TTSBroswer v1 Alpha.exe
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\TTSBroswer v1 Alpha.deps.json
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\TTSBroswer v1 Alpha.runtimeconfig.json
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\TTSBroswer v1 Alpha.dll
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\TTSBroswer v1 Alpha.pdb
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\obj\Debug\net8.0-windows\TTSBroswer v1 Alpha.dll
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\obj\Debug\net8.0-windows\refint\TTSBroswer v1 Alpha.dll
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\obj\Debug\net8.0-windows\TTSBroswer v1 Alpha.pdb
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\obj\Debug\net8.0-windows\ref\TTSBroswer v1 Alpha.dll

@@ -27,7 +27,7 @@ namespace TTSBroswer
             {
                 Content = new Form1()
                 {
-                    Text = "Channel 1 — WSBSD MOTD"
+                    Text = "New Tab"
                 }
             };
         }
@@ -35,9 +35,6 @@ namespace TTSBroswer
         {
             this.SuspendLayout();
 
-            // 
-            // MainWindow
-            // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 600);
@@ -46,6 +43,7 @@ namespace TTSBroswer
 
             this.ResumeLayout(false);
         }
+
 
     }
 }

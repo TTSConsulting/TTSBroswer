@@ -6,8 +6,13 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
-    <AssemblyName>TTTSBroswer v1 Pre-Alpha</AssemblyName>
+    <AssemblyName>TTSBroswer v1 Alpha</AssemblyName>
+    <ApplicationIcon>213457898.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="213457898.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="EasyTabs" Version="2.0.0" />
