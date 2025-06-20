@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TTSBroswer v1 Release Candidate 2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d25d311119fa2f013904ac6933b9387065d9a71")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3996c634e2feda67a5b8a66497410b6476612332")]
 [assembly: System.Reflection.AssemblyProductAttribute("TTSBroswer v1 Release Candidate 2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TTSBroswer v1 Release Candidate 2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

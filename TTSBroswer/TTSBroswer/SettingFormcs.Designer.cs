@@ -3,7 +3,7 @@
     partial class SettingsForm
     {
         private System.ComponentModel.IContainer components = null;
-        private System.Windows.Forms.CheckBox darkmodecheckBox;
+        public System.Windows.Forms.CheckBox darkmodecheckBox;
         private System.Windows.Forms.Button okButton;
 
         protected override void Dispose(bool disposing)

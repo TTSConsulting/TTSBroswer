@@ -8,6 +8,7 @@ namespace TTSBroswer
     public partial class SettingsForm : Form
     {
         private Form1 mainForm;
+        private SettingsForm settingsForm;
 
         public SettingsForm(Form1 parent)
         {
@@ -15,7 +16,7 @@ namespace TTSBroswer
             mainForm = parent;
         }
 
-        private void SettingsForm_Load(object sender, EventArgs e)
+        public void SettingsForm_Load(object sender, EventArgs e)
         {
             darkmodecheckBox.CheckedChanged += (s, ev) =>
             {
@@ -31,6 +32,8 @@ namespace TTSBroswer
 
             this.BackColor = bg;
             ApplyThemeToControls(this.Controls, bg, fg);
+            mainForm.isdark = enabled;
+            mainForm.godarkmode();
         }
 
         private void ApplyThemeToControls(Control.ControlCollection controls, Color bg, Color fg)

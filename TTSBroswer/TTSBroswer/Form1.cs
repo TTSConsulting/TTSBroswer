@@ -9,6 +9,9 @@ namespace TTSBroswer
     public partial class Form1 : Form
     {
         private Form1 mainForm;
+        private SettingsForm settingsForm;
+        public bool isdark;
+
 
         public Form1()
         {
@@ -99,6 +102,7 @@ namespace TTSBroswer
 
             this.BackColor = bg;
             ApplyThemeToControls(this.Controls, bg, fg);
+            godarkmode();
         }
         private void ApplyThemeToControls(Control.ControlCollection controls, Color bg, Color fg)
         {
@@ -109,6 +113,17 @@ namespace TTSBroswer
 
                 if (ctrl.HasChildren)
                     ApplyThemeToControls(ctrl.Controls, bg, fg);
+            }
+        }
+        public void godarkmode()
+        {
+            if (isdark && settingsForm != null)
+            {
+                settingsForm.darkmodecheckBox.ForeColor = Color.Black;
+            }
+            else if (settingsForm != null)
+            {
+                settingsForm.darkmodecheckBox.ForeColor = Color.White;
             }
         }
     }
