@@ -29,6 +29,7 @@ namespace TTSBroswer
             downloadsButton = new Button();
             SettingsButtion = new Button();
             AboutButtion = new Button();
+            DuckDuckGobuttion = new Button();
             ((System.ComponentModel.ISupportInitialize)webView21).BeginInit();
             SuspendLayout();
             // 
@@ -75,7 +76,7 @@ namespace TTSBroswer
             // 
             searchBox.Location = new Point(265, 7);
             searchBox.Name = "searchBox";
-            searchBox.Size = new Size(1049, 27);
+            searchBox.Size = new Size(868, 27);
             searchBox.TabIndex = 4;
             // 
             // downloadsButton
@@ -105,11 +106,21 @@ namespace TTSBroswer
             AboutButtion.Text = "About";
             AboutButtion.UseVisualStyleBackColor = true;
             // 
+            // DuckDuckGobuttion
+            // 
+            DuckDuckGobuttion.Location = new Point(1139, 5);
+            DuckDuckGobuttion.Name = "DuckDuckGobuttion";
+            DuckDuckGobuttion.Size = new Size(175, 29);
+            DuckDuckGobuttion.TabIndex = 8;
+            DuckDuckGobuttion.Text = "Search In DuckDuckGo";
+            DuckDuckGobuttion.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1924, 957);
+            Controls.Add(DuckDuckGobuttion);
             Controls.Add(AboutButtion);
             Controls.Add(SettingsButtion);
             Controls.Add(downloadsButton);
@@ -145,5 +156,6 @@ namespace TTSBroswer
         private Button downloadsButton;
         private Button SettingsButtion;
         private Button AboutButtion;
+        private Button DuckDuckGobuttion;
     }
 }

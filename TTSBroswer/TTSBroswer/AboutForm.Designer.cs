@@ -56,9 +56,9 @@
             label1.AutoSize = true;
             label1.Location = new Point(512, 71);
             label1.Name = "label1";
-            label1.Size = new Size(199, 20);
+            label1.Size = new Size(106, 20);
             label1.TabIndex = 2;
-            label1.Text = "Version: Release Candidate 4";
+            label1.Text = "Version: v1 Full";
             label1.Click += label1_Click;
             // 
             // addressLabel

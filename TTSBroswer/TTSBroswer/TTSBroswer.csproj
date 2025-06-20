@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
-    <AssemblyName>TTSBroswer v1 Release Candidate 4</AssemblyName>
+    <AssemblyName>TTSBroswer v1 Full</AssemblyName>
     <ApplicationIcon>213457898.ico</ApplicationIcon>
     <BaseOutputPath>C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows</BaseOutputPath>
     <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>

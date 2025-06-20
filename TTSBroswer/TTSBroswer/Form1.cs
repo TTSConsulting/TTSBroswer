@@ -12,7 +12,7 @@ namespace TTSBroswer
         private SettingsForm settingsForm;
         public bool isdark;
 
-
+        bool IsDuckDuckGo;
         public Form1()
         {
             InitializeComponent();
@@ -62,18 +62,21 @@ namespace TTSBroswer
                 System.Diagnostics.Process.Start("explorer.exe", path);
             };
 
+            string finalUrl;
+
             searchBox.KeyDown += (s, ev) =>
             {
                 if (ev.KeyCode == Keys.Enter)
                 {
                     ev.SuppressKeyPress = true;
                     string raw = searchBox.Text.Trim();
-                    string finalUrl;
 
                     if (raw.StartsWith("http://") || raw.StartsWith("https://"))
                         finalUrl = raw;
                     else if (raw.Contains("."))
                         finalUrl = "https://" + raw;
+                    else if (IsDuckDuckGo)
+                    finalUrl = $"https://duckduckgo.com/?q={Uri.EscapeDataString(raw)}";
                     else
                         finalUrl = $"https://www.google.com/search?q={Uri.EscapeDataString(raw)}";
 
@@ -97,6 +100,10 @@ namespace TTSBroswer
             {
                 AboutForm aboutForm = new AboutForm(webView21.Source?.AbsoluteUri ?? "No address loaded");
                 aboutForm.ShowDialog(this);
+            };
+            DuckDuckGobuttion.Click += (s, ev) =>
+            {
+                IsDuckDuckGo = true;
             };
         }
 
