@@ -9,6 +9,7 @@ namespace TTSBroswer
     {
         private Form1 mainForm;
         private SettingsForm settingsForm;
+        private AboutForm aboutForm;
 
         public SettingsForm(Form1 parent)
         {

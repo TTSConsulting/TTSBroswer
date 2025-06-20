@@ -28,6 +28,7 @@ namespace TTSBroswer
             searchBox = new TextBox();
             downloadsButton = new Button();
             SettingsButtion = new Button();
+            AboutButtion = new Button();
             ((System.ComponentModel.ISupportInitialize)webView21).BeginInit();
             SuspendLayout();
             // 
@@ -72,9 +73,9 @@ namespace TTSBroswer
             // 
             // searchBox
             // 
-            searchBox.Location = new Point(305, 7);
+            searchBox.Location = new Point(265, 7);
             searchBox.Name = "searchBox";
-            searchBox.Size = new Size(1125, 27);
+            searchBox.Size = new Size(1049, 27);
             searchBox.TabIndex = 4;
             // 
             // downloadsButton
@@ -95,11 +96,21 @@ namespace TTSBroswer
             SettingsButtion.Text = "Settings";
             SettingsButtion.UseVisualStyleBackColor = true;
             // 
+            // AboutButtion
+            // 
+            AboutButtion.Location = new Point(1320, 6);
+            AboutButtion.Name = "AboutButtion";
+            AboutButtion.Size = new Size(94, 29);
+            AboutButtion.TabIndex = 7;
+            AboutButtion.Text = "About";
+            AboutButtion.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1924, 957);
+            Controls.Add(AboutButtion);
             Controls.Add(SettingsButtion);
             Controls.Add(downloadsButton);
             Controls.Add(searchBox);
@@ -133,5 +144,6 @@ namespace TTSBroswer
         private TextBox searchBox;
         private Button downloadsButton;
         private Button SettingsButtion;
+        private Button AboutButtion;
     }
 }

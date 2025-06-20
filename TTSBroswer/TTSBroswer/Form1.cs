@@ -93,6 +93,11 @@ namespace TTSBroswer
                 SettingsForm settingsForm = new SettingsForm(this);
                 settingsForm.ShowDialog(this);
             };
+            AboutButtion.Click += (s, ev) =>
+            {
+                AboutForm aboutForm = new AboutForm(webView21.Source?.AbsoluteUri ?? "No address loaded");
+                aboutForm.ShowDialog(this);
+            };
         }
 
         public void ApplyDarkMode(bool enabled)

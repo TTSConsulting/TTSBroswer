@@ -28,12 +28,38 @@ C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\obj\De
 C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\obj\Debug\net8.0-windows\TTSBroswer.genruntimeconfig.cache
 C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\Resources\213457898.ico
 C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\obj\Debug\net8.0-windows\TTSBroswer.SettingsForm.resources
-C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\TTSBroswer v1 Release Candidate 2.exe
-C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\TTSBroswer v1 Release Candidate 2.deps.json
-C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\TTSBroswer v1 Release Candidate 2.runtimeconfig.json
-C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\TTSBroswer v1 Release Candidate 2.dll
-C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\TTSBroswer v1 Release Candidate 2.pdb
-C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\obj\Debug\net8.0-windows\TTSBroswer v1 Release Candidate 2.dll
-C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\obj\Debug\net8.0-windows\refint\TTSBroswer v1 Release Candidate 2.dll
-C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\obj\Debug\net8.0-windows\TTSBroswer v1 Release Candidate 2.pdb
-C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\obj\Debug\net8.0-windows\ref\TTSBroswer v1 Release Candidate 2.dll
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\TTSBroswer v1 Release Candidate 3.exe
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\TTSBroswer v1 Release Candidate 3.deps.json
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\TTSBroswer v1 Release Candidate 3.runtimeconfig.json
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\TTSBroswer v1 Release Candidate 3.dll
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\TTSBroswer v1 Release Candidate 3.pdb
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\obj\Debug\net8.0-windows\TTSBroswer.AboutForm.resources
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\obj\Debug\net8.0-windows\TTSBroswer.Properties.Resources.resources
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\Debug\net8.0-windows\Resources\213457898.ico
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\Debug\net8.0-windows\EasyTabs.dll
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\Debug\net8.0-windows\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\Debug\net8.0-windows\Microsoft.WindowsAPICodePack.dll
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\Debug\net8.0-windows\Svg.dll
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\Debug\net8.0-windows\Win32Interop.Dwmapi.dll
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\Debug\net8.0-windows\Win32Interop.Gdi32.dll
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\Debug\net8.0-windows\Win32Interop.Kernel32.dll
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\Debug\net8.0-windows\Win32Interop.User32.dll
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\Debug\net8.0-windows\Win32Interop.Uxtheme.dll
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.xml
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\Debug\net8.0-windows\TTSBroswer v1 Release Candidate 4.exe
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\Debug\net8.0-windows\TTSBroswer v1 Release Candidate 4.deps.json
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\Debug\net8.0-windows\TTSBroswer v1 Release Candidate 4.runtimeconfig.json
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\Debug\net8.0-windows\TTSBroswer v1 Release Candidate 4.dll
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\bin\Debug\net8.0-windows\Debug\net8.0-windows\TTSBroswer v1 Release Candidate 4.pdb
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\obj\Debug\net8.0-windows\TTSBroswer v1 Release Candidate 4.dll
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\obj\Debug\net8.0-windows\refint\TTSBroswer v1 Release Candidate 4.dll
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\obj\Debug\net8.0-windows\TTSBroswer v1 Release Candidate 4.pdb
+C:\Users\tadeo\OneDrive\Documents\GitHub\TTSBroswer\TTSBroswer\TTSBroswer\obj\Debug\net8.0-windows\ref\TTSBroswer v1 Release Candidate 4.dll

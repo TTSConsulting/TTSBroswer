@@ -1,0 +1,226 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "TTSBroswer v1 Release Candidate 3/1.0.0": {
+        "dependencies": {
+          "EasyTabs": "2.0.0",
+          "Microsoft.Web.WebView2": "1.0.3296.44",
+          "Microsoft.Web.WebView2.Core": "1.0.3296.44",
+          "Microsoft.Web.WebView2.WinForms": "1.0.3296.44",
+          "Microsoft.Web.WebView2.Wpf": "1.0.3296.44"
+        },
+        "runtime": {
+          "TTSBroswer v1 Release Candidate 3.dll": {}
+        }
+      },
+      "EasyTabs/2.0.0": {
+        "dependencies": {
+          "Svg": "2.4.3",
+          "Win32Interop.Dwmapi": "1.0.1",
+          "Win32Interop.Gdi32": "1.0.1",
+          "Win32Interop.Kernel32": "1.0.1",
+          "Win32Interop.User32": "1.0.1",
+          "Win32Interop.Uxtheme": "1.0.1"
+        },
+        "runtime": {
+          "lib/net40/EasyTabs.dll": {
+            "assemblyVersion": "2.0.0.39",
+            "fileVersion": "2.0.0.39"
+          },
+          "lib/net40/Microsoft.WindowsAPICodePack.Shell.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net40/Microsoft.WindowsAPICodePack.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Web.WebView2/1.0.3296.44": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/WebView2Loader.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "1.0.3296.44"
+          },
+          "runtimes/win-x64/native/WebView2Loader.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.0.3296.44"
+          },
+          "runtimes/win-x86/native/WebView2Loader.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.0.3296.44"
+          }
+        }
+      },
+      "Svg/2.4.3": {
+        "runtime": {
+          "lib/Svg.dll": {
+            "assemblyVersion": "2.4.3.29446",
+            "fileVersion": "2.4.3.29446"
+          }
+        }
+      },
+      "Win32Interop.Dwmapi/1.0.1": {
+        "dependencies": {
+          "Win32Interop.User32": "1.0.1",
+          "Win32Interop.Uxtheme": "1.0.1"
+        },
+        "runtime": {
+          "lib/Win32Interop.Dwmapi.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "Win32Interop.Gdi32/1.0.1": {
+        "dependencies": {
+          "Win32Interop.User32": "1.0.1"
+        },
+        "runtime": {
+          "lib/Win32Interop.Gdi32.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "Win32Interop.Kernel32/1.0.1": {
+        "runtime": {
+          "lib/Win32Interop.Kernel32.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "Win32Interop.User32/1.0.1": {
+        "runtime": {
+          "lib/Win32Interop.User32.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "Win32Interop.Uxtheme/1.0.1": {
+        "dependencies": {
+          "Win32Interop.User32": "1.0.1"
+        },
+        "runtime": {
+          "lib/Win32Interop.Uxtheme.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "Microsoft.Web.WebView2.Core/1.0.3296.44": {
+        "runtime": {
+          "Microsoft.Web.WebView2.Core.dll": {
+            "assemblyVersion": "1.0.3296.44",
+            "fileVersion": "1.0.3296.44"
+          }
+        }
+      },
+      "Microsoft.Web.WebView2.WinForms/1.0.3296.44": {
+        "runtime": {
+          "Microsoft.Web.WebView2.WinForms.dll": {
+            "assemblyVersion": "1.0.3296.44",
+            "fileVersion": "1.0.3296.44"
+          }
+        }
+      },
+      "Microsoft.Web.WebView2.Wpf/1.0.3296.44": {
+        "runtime": {
+          "Microsoft.Web.WebView2.Wpf.dll": {
+            "assemblyVersion": "1.0.3296.44",
+            "fileVersion": "1.0.3296.44"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TTSBroswer v1 Release Candidate 3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EasyTabs/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3Kfh4mATMLMpWPW+yM3jKndDkJ4LpTtOBjjh0kVHENohcJJyXAQ+OmeMR1qV1Tj70r2tRsTDohcorG5XnC/1+A==",
+      "path": "easytabs/2.0.0",
+      "hashPath": "easytabs.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.Web.WebView2/1.0.3296.44": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dDCbfdpka+X9TDpTqlJY1Ydz+BQ/KOYNtnJvXXqtBONe96rkwk9wZSLasw7yCo4NI1rXuDg2qAfDtV9K1vl8eg==",
+      "path": "microsoft.web.webview2/1.0.3296.44",
+      "hashPath": "microsoft.web.webview2.1.0.3296.44.nupkg.sha512"
+    },
+    "Svg/2.4.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5HuSl7iaYbMZG9lnuGHnJ+hgiy6stmiRgVYdwAdyPVAdeDG9P5is2K0UT9kM6mKOnhHDjXRok85nx5DNKRgZEg==",
+      "path": "svg/2.4.3",
+      "hashPath": "svg.2.4.3.nupkg.sha512"
+    },
+    "Win32Interop.Dwmapi/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Jkaj/RhMmW0h/eSWV1YKlCW1bkjW9MCGxn21I6cJscz1zb5bq/I6iSfwZxSI63aVo18BSKyONQ78iNZzd4frWA==",
+      "path": "win32interop.dwmapi/1.0.1",
+      "hashPath": "win32interop.dwmapi.1.0.1.nupkg.sha512"
+    },
+    "Win32Interop.Gdi32/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+rtmt0ae7tRfBIEb7kPlw2cWNABLUp5JLqIPi7rMK3HQLWdWIs8T3iEwki2SCSdRHmDSH5S34HE+ytxRsUDEhQ==",
+      "path": "win32interop.gdi32/1.0.1",
+      "hashPath": "win32interop.gdi32.1.0.1.nupkg.sha512"
+    },
+    "Win32Interop.Kernel32/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8ApAA5F8N7qZm+SLkfY61qk1mzCsbu8KFEBNnTMwyWO5vbTTXl/0PfT99thP3X5Di+lKWvXvj381N2UG3DYhNQ==",
+      "path": "win32interop.kernel32/1.0.1",
+      "hashPath": "win32interop.kernel32.1.0.1.nupkg.sha512"
+    },
+    "Win32Interop.User32/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GrtMD4QYCys/wHKDrvIM62YJJQCeQfPkCK7kYN+dlcz+jVTi2Abtsy+4rzfFzHfhYWpBeA3EoXzqQAJVfN9N/w==",
+      "path": "win32interop.user32/1.0.1",
+      "hashPath": "win32interop.user32.1.0.1.nupkg.sha512"
+    },
+    "Win32Interop.Uxtheme/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2EjHI+iExj5gl+p4LceG6wOz8FsWLVrbP51D60/ANHiYBSPS5NL3dms1jMNT+0VFQv3vJ0j8FAeWZCFLC1RC+A==",
+      "path": "win32interop.uxtheme/1.0.1",
+      "hashPath": "win32interop.uxtheme.1.0.1.nupkg.sha512"
+    },
+    "Microsoft.Web.WebView2.Core/1.0.3296.44": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Web.WebView2.WinForms/1.0.3296.44": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Web.WebView2.Wpf/1.0.3296.44": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
