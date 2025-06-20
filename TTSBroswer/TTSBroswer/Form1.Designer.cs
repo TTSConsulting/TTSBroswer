@@ -20,7 +20,7 @@ namespace TTSBroswer
 
         private void InitializeComponent()
         {
-            var resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             webView21 = new WebView2();
             homeButtion = new Button();
             ForwardButtion = new Button();
@@ -28,10 +28,8 @@ namespace TTSBroswer
             searchBox = new TextBox();
             downloadsButton = new Button();
             SettingsButtion = new Button();
-
             ((System.ComponentModel.ISupportInitialize)webView21).BeginInit();
             SuspendLayout();
-
             // 
             // webView21
             // 
@@ -43,7 +41,6 @@ namespace TTSBroswer
             webView21.Size = new Size(1927, 920);
             webView21.TabIndex = 0;
             webView21.ZoomFactor = 1D;
-
             // 
             // homeButtion
             // 
@@ -53,7 +50,6 @@ namespace TTSBroswer
             homeButtion.TabIndex = 1;
             homeButtion.Text = "Home";
             homeButtion.UseVisualStyleBackColor = true;
-
             // 
             // ForwardButtion
             // 
@@ -63,7 +59,6 @@ namespace TTSBroswer
             ForwardButtion.TabIndex = 2;
             ForwardButtion.Text = "→";
             ForwardButtion.UseVisualStyleBackColor = true;
-
             // 
             // backwardButtion
             // 
@@ -74,7 +69,6 @@ namespace TTSBroswer
             backwardButtion.Text = "←";
             backwardButtion.UseVisualStyleBackColor = true;
             backwardButtion.Click += BackwardButton_Click;
-
             // 
             // searchBox
             // 
@@ -82,7 +76,6 @@ namespace TTSBroswer
             searchBox.Name = "searchBox";
             searchBox.Size = new Size(1125, 27);
             searchBox.TabIndex = 4;
-
             // 
             // downloadsButton
             // 
@@ -92,7 +85,6 @@ namespace TTSBroswer
             downloadsButton.TabIndex = 5;
             downloadsButton.Text = "Downloads";
             downloadsButton.UseVisualStyleBackColor = true;
-
             // 
             // SettingsButtion
             // 
@@ -100,9 +92,8 @@ namespace TTSBroswer
             SettingsButtion.Name = "SettingsButtion";
             SettingsButtion.Size = new Size(198, 29);
             SettingsButtion.TabIndex = 6;
-            SettingsButtion.Text = "SETTINGS COMING SOON";
+            SettingsButtion.Text = "Settings";
             SettingsButtion.UseVisualStyleBackColor = true;
-
             // 
             // Form1
             // 
@@ -120,7 +111,6 @@ namespace TTSBroswer
             Name = "Form1";
             Text = "New Tab";
             Load += Form1_Load;
-
             ((System.ComponentModel.ISupportInitialize)webView21).EndInit();
             ResumeLayout(false);
             PerformLayout();

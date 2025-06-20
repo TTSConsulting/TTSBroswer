@@ -1,36 +1,47 @@
+using Microsoft.Web.WebView2.Core;
+using Microsoft.Web.WebView2.WinForms;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
-using Microsoft.Web.WebView2.Core;
-using Microsoft.Web.WebView2.WinForms;
 
 namespace TTSBroswer
 {
     public partial class Form1 : Form
     {
+        private Form1 mainForm;
+
         public Form1()
         {
             InitializeComponent();
+            this.Icon = new Icon("213457898.ico"); // Ensure this file exists in output dir
+
             this.Load += Form1_Load;
+
+            mainForm = this;
         }
 
         private async void Form1_Load(object sender, EventArgs e)
         {
-            await webView21.EnsureCoreWebView2Async();
+            try
+            {
+                await webView21.EnsureCoreWebView2Async();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("WebView2 initialization failed: " + ex.Message, "Error");
+                return;
+            }
 
-            // Sync tab title with page title
             webView21.CoreWebView2.DocumentTitleChanged += (s, ev) =>
             {
                 this.Text = webView21.CoreWebView2.DocumentTitle;
             };
 
-            // WebView2 layout
             webView21.Source = new Uri("https://www.google.com/");
             webView21.Location = new Point(0, 35);
             webView21.Size = new Size(this.Width, this.Height - 35);
             webView21.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
 
-            // Button event hooks
             homeButtion.Click += (s, ev) =>
             {
                 webView21.Source = new Uri("https://www.google.com/");
@@ -73,6 +84,32 @@ namespace TTSBroswer
                     }
                 }
             };
+
+            SettingsButtion.Click += (s, ev) =>
+            {
+                SettingsForm settingsForm = new SettingsForm(this);
+                settingsForm.ShowDialog(this);
+            };
+        }
+
+        public void ApplyDarkMode(bool enabled)
+        {
+            var bg = enabled ? Color.FromArgb(30, 30, 30) : SystemColors.Control;
+            var fg = enabled ? Color.White : SystemColors.ControlText;
+
+            this.BackColor = bg;
+            ApplyThemeToControls(this.Controls, bg, fg);
+        }
+        private void ApplyThemeToControls(Control.ControlCollection controls, Color bg, Color fg)
+        {
+            foreach (Control ctrl in controls)
+            {
+                ctrl.BackColor = bg;
+                ctrl.ForeColor = fg;
+
+                if (ctrl.HasChildren)
+                    ApplyThemeToControls(ctrl.Controls, bg, fg);
+            }
         }
     }
 }
