@@ -57,9 +57,9 @@ jobs:
 
     env:
       Solution_Name: TTSBroswer                                                                                                                                                           # Replace with your solution name, i.e. MyWpfApp.sln.
-      Test_Project_Path: https://github.com/TTSConsulting/TTSBroswer/blob/master/TTSBroswer/TTSBroswer/bin/Debug/net8.0-windows/TTSBroswer%20v1%20Release%20Candidate%203.exe             # Replace with the path to your test project, i.e. MyWpfApp.Tests\MyWpfApp.Tests.csproj.
-      Wap_Project_Directory: https://github.com/TTSConsulting/TTSBroswer/blob/master/TTSBroswer/TTSBroswer/bin/Debug/net8.0-windows/                                                      # Replace with the Wap project directory relative to the solution, i.e. MyWpfApp.Package.
-      Wap_Project_Path: https://github.com/TTSConsulting/TTSBroswer/blob/master/TTSBroswer/TTSBroswer/bin/Debug/net8.0-windows/TTSBroswer%20v1%20Release%20Candidate%203.exe# Replace with the path to your Wap project, i.e. MyWpf.App.Package\MyWpfApp.Package.wapproj.
+      Test_Project_Path: https://github.com/TTSConsulting/TTSBroswer/tree/master/TTSBroswer           # Replace with the path to your test project, i.e. MyWpfApp.Tests\MyWpfApp.Tests.csproj.
+      Wap_Project_Directory: https://github.com/TTSConsulting/TTSBroswer/tree/master/TTSBroswer                                                   # Replace with the Wap project directory relative to the solution, i.e. MyWpfApp.Package.
+      Wap_Project_Path: https://github.com/TTSConsulting/TTSBroswer/tree/master/TTSBroswer # Replace with the path to your Wap project, i.e. MyWpf.App.Package\MyWpfApp.Package.wapproj.
 
     steps:
     - name: Checkout
